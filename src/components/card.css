@@ -1,0 +1,64 @@
+/* Styling for the card container */
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  margin: 20px;
+  width: 300px;
+}
+
+/* Styling for images within the card */
+.card-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Styling for the card title */
+.card-title {
+  font-size: 24px;
+  margin: 0;
+}
+
+/* Styling for additional details within the card */
+.card-details {
+  margin-top: 10px;
+}
+
+/* Styling for text content within the card */
+.card-text {
+  margin: 5px 0;
+}
+
+/* Styling for the section containing card actions */
+.card-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+/* Styling for the delete button */
+.delete-button {
+  background-color: #ff5858;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Styling for the update link */
+.update-link {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+/* Styling for the update link on hover */
+.update-link:hover {
+  color: #0056b3;
+}
